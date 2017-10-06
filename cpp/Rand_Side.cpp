@@ -11,7 +11,7 @@ void interpolate(vector<float> &A)
 }
 
 
-void interpolate2(vector<float> &A, int dt) // dt - на сколько значений уплотнять массив
+void interpolate2(vector<float> &A, int dt) // dt - Г­Г  Г±ГЄГ®Г«ГјГЄГ® Г§Г­Г Г·ГҐГ­ГЁГ© ГіГЇГ«Г®ГІГ­ГїГІГј Г¬Г Г±Г±ГЁГў
 {
 	vector<float> A_COPY = A;
 	A.clear();
